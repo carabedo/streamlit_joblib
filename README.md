@@ -30,3 +30,10 @@ python app_flask.py
 ### una vez que nuestras apps de streamlit funcionen como queremos, ya podemos subirlas a heroku
 
 para necesitamos nuestra app_st.py y cuatro archivos mas, ejemplos de esto estan en la carpeta heroku
+
+```bash
+requirements.txt
+runtime.txt
+Procfile
+make_install.c
+``` 
