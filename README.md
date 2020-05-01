@@ -49,7 +49,7 @@ streamlit run archivo.py
 
 
 
-### 3 Heroku: 
+### 3 Heroku [tutorial](https://github.com/carabedo/flask_streamlit/blob/master/Heroku.pdf): 
 
 una vez que nuestras apps de streamlit funcionen como queremos, ya podemos subirlas. para crear la maquia virtual en heroku, tenemos que especificar la version de python y de las librerias presentes en nuestra app, esto lo hacemos en los archivos requirements y runtime. heroku tiene su propia aplicacion para interactuar con los archivos, yo prefiero que este sincronizado con mis repositorios en github, para esto primero nos creamos una cuenta en github, luego creamos un repositorio y ponemos los 5 archivos necesarios:
 
