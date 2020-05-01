@@ -57,11 +57,14 @@ una vez que nuestras apps de streamlit funcionen como queremos, ya podemos subir
 
 
 ```bash
+app_st.py
 requirements.txt
 runtime.txt
 Procfile
 create_config.sh
 ``` 
+revisen siempre los nombres de los archivos y los contenidos, si en creat_config.sh habla de un app.py y su app se llama app_st.py, tienen que cambiarlo.
+
 
 ejemplos del contenido de estos archivos esta en:
 
