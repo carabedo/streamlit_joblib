@@ -12,4 +12,18 @@ En practica 3 vemos el tipo de interaccion con usuarios que nos permite flask, h
 * bokeh_st.py: archivo con nuestro ejemplo de implementacion del ejemplo de bokeh hecho en streamlit
 * stream_ej.ppy: archivo con la app de stream que implementa todo el ejercicio plantedo en la practica 1
 
-* en la carpeta templates hay un index.html, necesario para el ejmplo de bokeh en flask
+* en la carpeta templates hay un index.html, necesario para el ejmplo de bokeh en flask de la practica 2
+
+
+### podemos correr los servidores desde las consolas
++ streamlit: 
+
+```bash
+streamlit run app_st.py
+``` 
+
++ flask: 
+
+```bash
+python app_flask.py
+``` 
