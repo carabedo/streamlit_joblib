@@ -42,7 +42,7 @@ streamlit run archivo.py
 
 
 * bokeh_flask.py: archivo con nuestro ejemplo de implementacion de un servidor de FLASK que recibe requests GET
-* bokeh_st.py: archivo con nuestro ejemplo de implementacion del ejemplo de bokeh hecho en streamlit
+* bokeh_st.py: archivo con la implementacion del ejemplo anterior hecho en streamlit
 * stream_ej.ppy: archivo con la app de stream que implementa todo el ejercicio plantedo en la practica 1
 * en la carpeta templates hay un index.html, necesario para el ejmplo de bokeh en flask de la practica 2
 
