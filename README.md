@@ -37,5 +37,5 @@ https://github.com/carabedo/geopami
 requirements.txt
 runtime.txt
 Procfile
-make_install.c
+create_config.sh
 ``` 
