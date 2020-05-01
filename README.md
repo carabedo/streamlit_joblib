@@ -27,7 +27,7 @@ python archivo.py
 ``` 
 
 ### 2 streamlit
-Las apps de streamlit, son mas basicas, es un script de python normal y vamos insertando los widgets que necesitamos en el cuerpo del script. Aca una lista de los widgets disponibles https://docs.streamlit.io/api.html
+Las apps de streamlit, son mas simples, es un script de python normal y vamos insertando los widgets que necesitamos en el cuerpo del script. Aca una lista de los widgets disponibles https://docs.streamlit.io/api.html
 Un ejemplo basico:
 
 ```python
