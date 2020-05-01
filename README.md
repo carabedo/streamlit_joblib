@@ -29,9 +29,9 @@ python app_flask.py
 ``` 
 ### una vez que nuestras apps de streamlit funcionen como queremos, ya podemos subirlas a heroku
 
-para necesitamos nuestra app_st.py y cuatro archivos mas, ejemplos de esto estan en:
+primero nos creamos una cuenta en github, luego creamos un repositorio y ponemos los 5 archivos necesarios:
+nuestra app_st.py y cuatro archivos mas:
 
-https://github.com/carabedo/geopami
 
 ```bash
 requirements.txt
@@ -39,3 +39,7 @@ runtime.txt
 Procfile
 create_config.sh
 ``` 
+
+ejemplos del contenido de estos esta en:
+
+https://github.com/carabedo/geopami
