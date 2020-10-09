@@ -1,4 +1,4 @@
-# Clase 27: Flask, Streamlit, Heroku
+# Flask, Streamlit, Heroku
 
 La idea de la clase es mostrar 2 maneras de poner nuestro modelito o rutina de python online.
 
