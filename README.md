@@ -10,7 +10,7 @@ En practica 3 vemos el tipo de interaccion con usuarios que nos permite flask, h
 
 ### 1 flask
 
-la estructura mas basica de una app de flask:
+La estructura mas basica de una app de flask:
 
 ```python
 from flask import Flask
