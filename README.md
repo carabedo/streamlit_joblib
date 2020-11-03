@@ -57,7 +57,8 @@ una vez que nuestras apps de streamlit funcionen como queremos, ya podemos subir
 
 
 ```bash
-app_st.py
+app.py
+
 requirements.txt
 runtime.txt
 Procfile
