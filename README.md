@@ -14,8 +14,9 @@ la estructura mas basica de una app de flask:
 
 ```python
 from flask import Flask
+
 app = Flask('mi app')
-@app.route('/',methods=['GET','POST])
+@app.route('/',methods=['GET','POST'])
 def main():
     print('hola!')
 app.run(host='127.0.0.1',  port=5000)
