@@ -36,7 +36,7 @@ st.title("Tasador de propiedades")
 
 
 # entreno el modelo
-model,transformer, explainer=load_model()
+model,transformer=load_model()
 
 
 st.header('Elija las variables de la propiedad que quiere predecir:')
@@ -73,11 +73,6 @@ pred=[tipo,barrio,sup,habs]
 
 df_pred=pd.DataFrame([pred], columns=['tipo','barrio','sup','habs'])
 X_pred=transformer.transform(df_pred)
-
-# genero la expliacion para los datos del test
-
-shap_value = explainer.shap_values(X_pred)
-
 lista_features=['sup', 'habs', 'tipo_apartment', 'tipo_house', 'tipo_store',
        'barrio_Agronomía', 'barrio_Almagro', 'barrio_Balvanera',
        'barrio_Barracas', 'barrio_Barrio Norte', 'barrio_Belgrano',
@@ -101,6 +96,12 @@ lista_features=['sup', 'habs', 'tipo_apartment', 'tipo_house', 'tipo_store',
        'barrio_Villa Urquiza', 'barrio_Villa del Parque']
 # printeamos el grafico
 st.subheader('Analizando la prediccion:')
+
+
+explainer = shap.TreeExplainer(model)
+# genero la expliacion para los datos del test
+
+shap_value = explainer.shap_values(X_pred)
 st_shap(shap.force_plot(explainer.expected_value, shap_value, X_pred,feature_names=lista_features))
 
 
