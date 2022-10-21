@@ -18,8 +18,8 @@ class TypeSelector(BaseEstimator, TransformerMixin):
 
 
 def load_model():
-    model, transformer, explainer = load('app.joblib') 
-    return model,transformer, explainer
+    model, transformer = load('app.joblib') 
+    return model,transformer
 
 
 
