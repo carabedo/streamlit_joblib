@@ -73,6 +73,7 @@ pred=[tipo,barrio,sup,habs]
 
 df_pred=pd.DataFrame([pred], columns=['tipo','barrio','sup','habs'])
 X_pred=transformer.transform(df_pred)
+
 lista_features=['sup', 'habs', 'tipo_apartment', 'tipo_house', 'tipo_store',
        'barrio_Agronomía', 'barrio_Almagro', 'barrio_Balvanera',
        'barrio_Barracas', 'barrio_Barrio Norte', 'barrio_Belgrano',
